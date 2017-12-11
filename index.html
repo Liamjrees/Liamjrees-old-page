@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--Set up html page-->
+<html>
+<!--open head-->
+  <head>
+    <meta charset="UTF-8">
+    <!--Set title for the page-->
+    <title>P5.js Your canvas</title>
+    <!--Set scrpt sources for P5.JS libraries-->
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js" type="text/javascript"></script>
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+    <!--link style sheet to html page-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--close head-->
+  </head>
+  <!--create body-->
+  <body>
+    <!--create header-->
+    <header>
+      <!--Headers welcoming the users and explaining what they need to do-->
+      <h1>P5.js Your Canvas</h1>
+      <h2>Welcome to your canvas</h2>
+      <h2>See Instructions Below on How to Create</h2>
+      <!--close header-->
+    </header>
+    <!--div to hold the sketchcontainer-->
+    <div id="sketchcontainer"></div>
+    <!--create section to hold a list of instructions-->
+    <section class="instructions">
+      <!--header for instructions-->
+    <h3>Instructions</h3>
+    <!--4 lines of instructions using <p>-->
+    <p>To start your drawing use left click</p>
+    <p>Use the mouse to change position of the brush</p>
+    <p>Use numbers 1,2 and 3 on your keyboard to change the shape</p>
+    <p>Hold left click down for random colours</p>
+    <!--create footer-->
+    <footer></footer>
+    <!--close body-->
+  </body>
+  <!--close html document-->
+</html>
